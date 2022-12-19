@@ -34,9 +34,9 @@ fun ResultScreen(navController: NavHostController) {
     val resultdata = listOf(
         resultobject(R.drawable.image_1, ResultList.BrainTeasersResult.route, "Brain Teasers Result"),
         resultobject(R.drawable.image_2, ResultList.IdeaPresentationResult.route, "Idea Presentation Result"),
-        resultobject(R.drawable.image_3, ResultList.RoversListResult.route, "Rovers Result"),
+        resultobject(R.drawable.image_3, ResultList.RoversResult.route, "Rovers Result"),
         resultobject(R.drawable.image_4, ResultList.GamesResult.route, "Games Result"),
-        resultobject(R.drawable.image_5, ResultList.CreativeResult.route, "Creative Result"),
+        resultobject(R.drawable.image_5, ResultList.CreativeResult.route, "Creative Result")
     )
 
     LazyVerticalGrid(cells = GridCells.Fixed(1)) {

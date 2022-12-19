@@ -532,6 +532,26 @@ fun Navigation(navController: NavHostController){
         composable(NavigationItem.Aboutus.route){
             AboutusScreen()
         }
+        composable(ResultList.BrainTeasersResult.route){
+            BrainTeasersResult()
+        }
+
+        composable(ResultList.IdeaPresentationResult.route){
+            IdeaPresentationResult()
+        }
+
+        composable(ResultList.GamesResult.route){
+            GamesResult()
+        }
+
+        composable(ResultList.CreativeResult.route){
+            CreativeResult()
+        }
+
+        composable(ResultList.RoversResult.route){
+            RoversResult()
+        }
+
 
     }
 
